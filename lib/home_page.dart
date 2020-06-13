@@ -36,6 +36,10 @@ class HomePage extends StatelessWidget {
           // You can see there's no type safety here (only List<dynamic>)
           final List posts = json.decode(snapshot.data.bodyString);
           return _buildPosts(context, posts);
+        } else {
+          return Center(
+            child: CircularProgressIndicator(),
+          );
         }
       },
     );
