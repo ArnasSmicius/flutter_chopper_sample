@@ -6,3 +6,7 @@
 # build_runner:
 
 In order to run code generator, run this command `flutter packages pub run build_runner watch`. `watch` command rebuilds code on every code change
+
+## Tutorials to check
+
+built_value: https://resocoder.com/2019/01/16/built-value-tutorial-for-dart-flutter/
